@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="connect.php" method="post">
+        <label id="sign_up">SIGN UP</label>
+        <label>First Name</label>
+        <input type="text" id="firstName" name="firstName">
+        <label>Last Name</label>
+        <input type="text" id="lastName" name="lastName">
+        <label>Phone Number</label>
+        <input type="text" id="number" name="number">
+        <fieldset id="gender">
+         <p>Gender:</p>
+         <label for="man">Man:</label>
+         <input id="man" type="radio" name="gender" value="m">
+         <label for="woman">Woman:</label>
+         <input id="woman" type="radio" name="gender" value="w">
+         <label for="other">Other:</label>
+         <input id="other" type="radio" name="gender" value="o">
+        </fieldset>
+        <input type="submit" id="btn">
+    </form>
+</body>
+</html>
